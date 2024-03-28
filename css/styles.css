@@ -224,7 +224,41 @@ h3.menu-item-title {
   font-size: .9em;
   font-style: italic;
 }
+
 /* END SINGLE CATEGORY PAGE */
+
+/* START ABOUT PAGE */
+#restaurant-history {
+
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#restaurant-history h2 {
+
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#restaurant-history h3 {
+
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+
+#restaurant-history p {
+
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
 
 /********** large devices **********/
 @media (min-width: 1200px)  {
