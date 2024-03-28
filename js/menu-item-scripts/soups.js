@@ -18,8 +18,9 @@ function updateMenu(numberOfMenuItems) {
   // Loop to generate specified number of menu items
   for (let i = 1; i <= numberOfMenuItems; i++) {
     // Generate random prices between specified range
-    const priceSmall = `$${getRandomPrice(10, 15)}`;
-    const priceLarge = `$${getRandomPrice(12, 18)}`;
+    const basePrice = getRandomPrice(8, 13);
+    const priceSmall = `$${basePrice}`;
+    const priceLarge = `$${(basePrice * 1.2).toFixed(2)}`; // 20% price increase
 
     const menuItemHTML = `
       <div class="menu-item-tile col-md-6">
@@ -47,5 +48,5 @@ function updateMenu(numberOfMenuItems) {
   }
 }
 
-// Call the function to update the menu with 11 items
+// Call the function to update the menu items
 updateMenu(numberOfMenuItems);
