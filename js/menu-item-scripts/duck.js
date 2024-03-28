@@ -31,7 +31,7 @@ function updateMenu(numberOfMenuItems) {
           <div class="col-sm-5">
             <div class="menu-item-photo">
               <div>${categoryMenuName}${i.toString().padStart(2, "0")}</div>
-              <img class="img-responsive" width="250" height="150" src="/images/menu-item-tiles/duck/duck (${i}).jpg" alt="Item" />
+              <img class="img-responsive" width="250" height="150" src="../../images/menu-item-tiles/duck/duck (${i}).jpg" alt="Item" />
             </div>
             <div class="menu-item-price">
               ${priceSmall}<span> (small)</span> ${priceLarge} <span>(large)</span>
