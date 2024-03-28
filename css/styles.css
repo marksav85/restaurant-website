@@ -260,6 +260,29 @@ h3.menu-item-title {
   margin-bottom: 15px;
 }
 
+/* END ABOUT PAGE */
+
+/* START AWARDS PAGE */
+
+#awards-content {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+#awards-content h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#awards-content p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* END AWARDS PAGE */
+
 /********** large devices **********/
 @media (min-width: 1200px)  {
   .container .jumbotron {
