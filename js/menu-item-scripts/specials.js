@@ -1,6 +1,9 @@
 // Number of menu items to be added:
 const numberOfMenuItems = 8;
 
+// Category menu name
+const categoryMenuName = "SP";
+
 // Function to generate a random price within a specified range
 function getRandomPrice(min, max) {
   return (Math.random() * (max - min) + min).toFixed(2);
@@ -27,7 +30,7 @@ function updateMenu(numberOfMenuItems) {
         <div class="row">
           <div class="col-sm-5">
             <div class="menu-item-photo">
-              <div>D${i.toString().padStart(2, "0")}</div>
+            <div>${categoryMenuName}${i.toString().padStart(2, "0")}</div>
               <img class="img-responsive" width="250" height="150" src="/images/menu-item-tiles/specials/specials (${i}).jpg" alt="Item" />
             </div>
             <div class="menu-item-price">
@@ -35,7 +38,9 @@ function updateMenu(numberOfMenuItems) {
             </div>
           </div>
           <div class="menu-item-description col-sm-7">
-            <h3 class="menu-item-title">D${i.toString().padStart(2, "0")}</h3>
+            <h3 class="menu-item-title">${categoryMenuName}${i
+      .toString()
+      .padStart(2, "0")}</h3>
             <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
           </div>
         </div>
