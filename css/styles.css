@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #84276c;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -51,11 +51,11 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: #b9265f;
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #d0d0d0;
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -73,7 +73,7 @@ body {
   padding-right: 15px;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid #84276c;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -114,15 +114,15 @@ body {
 
 /*Home Page*/
 .container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
-  border: 2px solid #3F0C1F;
+  box-shadow: 0 0 50px #7f4050;
+  border: 2px solid #7f4050;
 }
 #menu-tile, #specials-tile, #map-tile {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid #3F0C1F;
+  border: 2px solid #7f4050;
   overflow: hidden;
 }
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
@@ -153,7 +153,7 @@ body {
 
 .category-tile {
   position: relative;
-  border: 2px solid #3F0C1F;
+  border: 2px solid #7f4050;
   overflow: hidden;
   width: 200px;
   height: 200px;
@@ -198,7 +198,7 @@ body {
 }
 .menu-item-photo {
   position: relative;
-  border: 2px solid #3F0C1F;
+  border: 2px solid #7f4050;
   overflow: hidden;
   padding: 0;
   margin-right: -15px;
