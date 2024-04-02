@@ -100,9 +100,9 @@
     <div id="main-content" class="container">
       <div class="jumbotron">
         <img
-          src="images/jumbotron_768.jpg"
+          data-src="images/jumbotron_768.jpg"
           alt="Picture of restaurant"
-          class="img-responsive visible-xs"
+          class="img-responsive visible-xs lazyload"
         />
       </div>
       <div id="home-tiles" class="row">
@@ -127,6 +127,7 @@
                 width="100%"
                 height="250"
                 frameborder="0"
+                class="lazyload"
                 style="border: 0"
                 allowfullscreen
                 title="Google Maps Location"
@@ -177,6 +178,7 @@
     </footer>
 
     <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="lazysizes.min.js" async=""></script>
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
